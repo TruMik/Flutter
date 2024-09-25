@@ -22,3 +22,5 @@ flutter:
   assets:
   - assets/climb.jpg
   - assets/logo.png
+  - assets/icon.png
+  - assets/background.png
