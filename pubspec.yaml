@@ -4,13 +4,16 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.5.1
+  sdk: ^3.5.0
 
 dependencies:
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.7.0
   flutter_launcher_icons: "^0.14.1"
+  dio: ^5.7.0
+  http: ^1.2.2
+  wordpress_api: ^1.2.0+1
 
 dev_dependencies:
   flutter_test:

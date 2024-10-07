@@ -56,7 +56,7 @@ class SingUpPage extends StatelessWidget {
                               padding: const EdgeInsets.fromLTRB(24, 28, 0, 25),
                             child: TextButton(
                               onPressed: () {
-                                Navigator.pushNamed(context, '/login');
+                                Navigator.popUntil(context, ModalRoute.withName('/login'));
                               },
                               style: ElevatedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
@@ -231,7 +231,7 @@ class SingUpPage extends StatelessWidget {
                           width: MediaQuery.of(context).size.width * 0.8,
                           child: ElevatedButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, '/login');
+                              Navigator.popUntil(context, ModalRoute.withName('/login'));
                             },
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.blue,
@@ -265,7 +265,7 @@ class SingUpPage extends StatelessWidget {
                               padding: const EdgeInsets.fromLTRB(0, 0, 0, 5),
                             child: TextButton(
                               onPressed: () {
-                                Navigator.pushNamed(context, '/login');
+                                Navigator.popUntil(context, ModalRoute.withName('/login'));
                               },
                               style: ElevatedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
@@ -305,7 +305,7 @@ class SingUpPage extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                     child: ElevatedButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/login');
+                        Navigator.popUntil(context, ModalRoute.withName('/login'));
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color.fromARGB(255, 32, 79, 139),
@@ -327,7 +327,7 @@ class SingUpPage extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/login');
+                      Navigator.popUntil(context, ModalRoute.withName('/login'));
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
